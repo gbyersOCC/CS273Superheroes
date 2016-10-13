@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+   xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <ListPreference
+      android:entries="@array/option_list_for_setting"
+      android:entryValues="@array/option_list"
+      android:key="pref_quizTypes"
+      android:title="@string/quiz_type"
+      android:summary="@string/quiz_type_description"
+      android:persistent="true"
+      android:defaultValue="Superhero_Name" />
+
+</PreferenceScreen>
